@@ -1,6 +1,7 @@
 repeat
     wait()
 until game:IsLoaded()
+
 local v_u_1 = game:GetService("Players")
 local v_u_2 = v_u_1.LocalPlayer
 local v_u_3 = tonumber(string.match(v_u_2["CharacterAppearance\0"], "userId=(%d+)"))
