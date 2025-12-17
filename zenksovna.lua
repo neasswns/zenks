@@ -1,5 +1,5 @@
 repeat
-	task.wait()
+    wait()
 until game:IsLoaded()
 local v_u_1 = game:GetService("Players")
 local v_u_2 = v_u_1.LocalPlayer
